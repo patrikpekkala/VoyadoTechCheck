@@ -1,0 +1,32 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:36319",
+      "sslPort": 44354
+    }
+  },
+  "profiles": {
+    "VoyadoTechCheck": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:7164;http://localhost:5164",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "BING_SEARCH_V7_SUBSCRIPTION_KEY": "68bcef77278642a0b2c629547d0f9f5c",
+        "BING_SEARCH_V7_ENDPOINT": "https://api.bing.microsoft.com/",
+        "RAPID_KEY": "4bb2d20dacmsh44e579fe8e93820p1dcd15jsn82ae13835d3c",
+        "RAPID_ENDPOINT": "https://contextualwebsearch-websearch-v1.p.rapidapi.com"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

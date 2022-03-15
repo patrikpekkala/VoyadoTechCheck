@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "+065mGc6v7kbWbf9RIw/Rlx7CcvS25ZTSLT6dNDl+5apWmJC3X41ym4t8hVg+pCzGY8BsElPyL+EhPMfXQnZVA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\patri\\source\\repos\\VoyadoTechCheck\\VoyadoTechCheck\\VoyadoTechCheck.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\patri\\.nuget\\packages\\google.apis\\1.56.0\\google.apis.1.56.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\google.apis.core\\1.56.0\\google.apis.core.1.56.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\google.apis.customsearchapi.v1\\1.56.0.2455\\google.apis.customsearchapi.v1.1.56.0.2455.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

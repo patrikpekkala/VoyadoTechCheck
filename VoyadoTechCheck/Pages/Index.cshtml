@@ -1,0 +1,39 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Multi-search</h1>
+    <p>You can search for total hits across multiple search engines down below.</p>
+    <input id="searchText" type="text"/>
+    <button onclick="SearchWord()">Search total hits</button>
+    <p id="totalHits">Total hits: </p>
+    <p>*Fetching data from Bing and RapidAPI web search</p>
+</div>
+
+<script>
+    function SearchWord() {
+        $("#totalHits").html("Total hits: Fetching");
+        var searchWord = $("#searchText").val().toString();
+    $.ajax({
+        type: "POST",
+        dataType : "text",
+        headers: { 
+            'Accept': 'application/x-www-form-urlencoded',
+            'Content-Type': 'application/x-www-form-urlencoded' 
+        },
+        data: {searchText:searchWord},
+        url: "/api/Search/",       
+        async: true,
+        success: function (result) {
+            $("#totalHits").html("Total hits: " + result);
+        },
+        error: function (e) {
+            console.log(e)
+            return "error";
+        }
+    });
+}
+</script>
